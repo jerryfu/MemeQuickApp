@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textMenuContext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="牛肉麵"
+            android:paddingLeft="20dp"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textPrice"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="100元"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:textSize="36dp"
+            android:gravity="right" />
+    </LinearLayout>
+</LinearLayout>
