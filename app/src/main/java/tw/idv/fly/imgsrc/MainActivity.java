@@ -29,7 +29,7 @@ import java.net.URL;
 public class MainActivity extends AppCompatActivity {
     ImageView myImageView;
     ListView lv_menu_item;
-
+    //Hello!
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
