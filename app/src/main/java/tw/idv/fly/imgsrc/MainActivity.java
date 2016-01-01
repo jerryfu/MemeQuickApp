@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView myImageView;
     ListView lv_menu_item;
     //Hello!  Say Hi!
+    //Test Git
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
