@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
     ListView lv_menu_item;
     //Hello!  Say Hi!
     //Test Git
+
+    //Test2 Git
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
